@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity
                 Toast.makeText(MainActivity.this, "Click Me", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(context,FirstActivity.class);
                 startActivity(intent);
-
             }
         });
     }
